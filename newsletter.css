@@ -1,0 +1,132 @@
+/** {
+  box-sizing: content-box;
+  border: 2px solid red;
+}*/
+
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+  display: flex;
+  background-color: #FFFFFF;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #2B2F26;
+  font-family: 'Roboto';
+  font-weight: 'heavier';
+}
+
+#logo {
+    height:70px;
+}
+
+#main_nav :hover {
+    color:#CD5D67;
+}
+
+#main_nav :active {
+    color:#968772;
+}
+
+#main_nav {
+    height: 50px;
+}
+
+
+nav{
+  color: #131511;
+  font-size: 14pt;
+  display: flex;
+  justify-content: space-around;
+  font-weight: lighter;
+  width: 100%;
+  padding: 20px;
+  height: 50%;
+  font-size: 20pt;
+}
+
+
+.mainArea {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-image: url("./background-2.jpg");
+    background-image: linear-gradient();g
+    width: 100%;
+    height: 800px;
+}
+
+#signUp {
+    display: flex;
+    font-family:'Merriweather';
+    font-weight: lighter;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40%;
+    width: 60%;
+    margin: 20%;
+    margin-top: 10%;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border-style: hidden;
+    /*align-items: flex-start;*/
+    /*align-items: flex-start;*/
+    text-align:left;
+    justify-content: flex-start;
+    margin: 0pt;
+}
+
+input[type="text"] {
+    border: hidden;
+    font-size: 15pt;
+    font-family: Roboto;
+    color: #F2F1E8;
+    margin: none;
+}
+
+input[type="email"]{
+    border: hidden;
+    font-size: 15pt;
+    font-family: Roboto;
+    color: #F2F1E8;
+
+}
+
+#signHere {
+    font-size: 25pt;
+}
+
+#upToDate {
+    font-size: 15pt;
+    padding-top: 0px;
+    font-weight: bolder;
+}
+
+hr {
+    width: 100%;
+    color: brown;
+}
+button {
+    width: 100px;
+    background-color:#968772;
+    border: hidden;
+    color: white;
+    font-size: 15pt;
+    font-family: Roboto;
+    height
+}
+button:hover{
+    background-color: #FFFFFF;
+    color: #968772;
+    width: 100px;
+    height: 20px;
+}
